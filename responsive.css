@@ -1,0 +1,140 @@
+/* Responsive CSS file styles defined for smaller width devices */
+
+/* Small devices xs*/
+@media (min-width: 320px) and (max-width: 575px) {
+     .row1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        justify-content: center !important;
+        text-align: center;
+        width: 100%;
+    }
+
+    .intro {
+        margin: 0 auto;
+    }
+
+    .intro-buttons1 {
+        justify-content: center;
+    }
+
+    .hero-image {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .hero-image img {
+        margin: 0 auto;
+        max-width: 90%;
+    }
+    .service-card{
+        height: 250px;
+    }
+    
+ }   
+/* Large Mobile / Small Tablet sm */
+@media (min-width: 576px) and (max-width: 767px) { 
+    .row1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        justify-content: center !important;
+        text-align: center;
+        width: 100%;
+    }
+
+    .intro {
+        margin: 0 auto;
+    }
+
+    .intro-buttons1 {
+        justify-content: center;
+    }
+
+    .hero-image {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .hero-image img {
+        margin: 0 auto;
+        max-width: 85%;
+    }
+     .service-card{
+        height: 250px;
+    }
+}   
+/* Tablet md*/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+     .row1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        justify-content: center !important;
+        text-align: center;
+        width: 100%;
+    }
+
+    .intro {
+        margin: 0 auto;
+    }
+
+    .intro-buttons1 {
+        justify-content: center;
+    }
+
+    .hero-image {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .hero-image img {
+        margin: 0 auto;
+        max-width: 70%;
+    }
+    .service-card{
+        height: 250px;
+    }
+}
+/* Laptop lg*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hero-content{
+        margin-left: 20px;
+    }
+    .hero-image img{
+       width: 450px;
+    }
+    .service-card{
+        height: 250px;
+    }
+}  
+/* Desktop xl*/
+@media (min-width: 1200px) and (max-width: 1399px) { 
+    .hero-image img{
+       width: 450px;
+    }
+    .service-card{
+        height: 250px;
+    }
+    
+}
+/* Large Screens (Big Desktop / TV) xxl*/
+@media (min-width: 1400px) { 
+    .hero-image img{
+       width: 450px;
+    }
+    .service-card{
+        height: 300px;
+    }
+}
+
+
+
